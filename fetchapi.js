@@ -6,4 +6,7 @@ function getText(){
   .then((res)=>{
     return res.text();
   })
+  .then(function(data){
+    console.log(data);
+  })
 }
