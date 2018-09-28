@@ -1,2 +1,2 @@
 //select element
-document.querySelector('#getText').addEventListener('click',)
+document.querySelector('#getText').addEventListener('click', getText);
