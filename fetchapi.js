@@ -29,5 +29,6 @@ function getUsers(){
   .then((res) => res.json())
   .then((data) => {
     let output = '<h2>Ussers</h2>';
+    console.log(data);
   })
 }
