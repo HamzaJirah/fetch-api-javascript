@@ -2,6 +2,7 @@
 document.querySelector('#getText').addEventListener('click', getText);
 
 function getText(){
+
   //es5 syntax
   /*fetch('sampletext.txt')
   .then((res)=>{
@@ -10,4 +11,7 @@ function getText(){
   .then(function(data){
     console.log(data);
   })*/
+
+  //es6 syntax
+  
 }
