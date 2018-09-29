@@ -3,11 +3,11 @@ document.querySelector('#getText').addEventListener('click', getText);
 
 function getText(){
   //es5 syntax
-  fetch('sampletext.txt')
+  /*fetch('sampletext.txt')
   .then((res)=>{
     return res.text();
   })
   .then(function(data){
     console.log(data);
-  })
+  })*/
 }
