@@ -15,5 +15,7 @@ function getText(){
   //es6 syntax
   fetch('sampletext.txt')
   .then((res)=> res.text())
-  .then((data)=> console.log(data));
+  .then((data)=>{
+    
+  });
 }
