@@ -25,5 +25,9 @@ function getText(){
 //GETUSERS FROM USERS.JSON FILE
 function getUsers(){
   //fetch users
-  
+  fetch('users.json')
+  .then((res) => res.json())
+  .then((data) => {
+    
+  })
 }
