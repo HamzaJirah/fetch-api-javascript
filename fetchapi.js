@@ -28,6 +28,6 @@ function getUsers(){
   fetch('users.json')
   .then((res) => res.json())
   .then((data) => {
-    
+    let output = '<h2>Ussers</h2>';
   })
 }
