@@ -16,6 +16,6 @@ function getText(){
   fetch('sampletext.txt')
   .then((res)=> res.text())
   .then((data)=>{
-    
+    document.querySelector('#output') = data;
   });
 }
