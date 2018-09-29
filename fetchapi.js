@@ -17,5 +17,6 @@ function getText(){
   .then((res)=> res.text())
   .then((data)=>{
     document.querySelector('#output').innerHTML = data;
-  });
+  })
+  .catch((err) => console.log(err))
 }
