@@ -21,3 +21,8 @@ function getText(){
   })
   .catch((err) => console.log(err))
 }
+
+//GETUSERS FROM USERS.JSON FILE
+function getUsers(){
+  
+}
