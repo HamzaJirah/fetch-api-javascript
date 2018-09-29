@@ -13,5 +13,6 @@ function getText(){
   })*/
 
   //es6 syntax
-  
+  fetch('sampletext.txt')
+  .then((res)=> res.text);
 }
