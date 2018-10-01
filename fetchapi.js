@@ -33,7 +33,7 @@ function getUsers(){
     let output = '<h2>Users</h2>';
     data.forEach(function(user){
       output += `
-        <ul class="list-group">
+        <ul class="list-group mb-3">
           <li class="list-group-item">ID: ${user.id}</li>
           <li class="list-group-item">Name: ${user.name}</li>
           <li class="list-group-item">Email: ${user.email}</li>
