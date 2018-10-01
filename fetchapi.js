@@ -42,3 +42,23 @@ function getUsers(){
     document.querySelector('#output').innerHTML = output;
   })
 }
+
+//GETUSERS FROM USERS.JSON FILE
+function getUsers(){
+  //fetch users
+  fetch('users.json')
+  .then((res) => res.json())
+  .then((data) => {
+    let output = '<h2>Users</h2>';
+    data.forEach(function(user){
+      output += `
+        <ul>
+          <li>ID: ${user.id}</li>
+          <li>Name: ${user.name}</li>
+          <li>Email: ${user.email}</li>
+        </ul>
+      `;
+    });
+    document.querySelector('#output').innerHTML = output;
+  })
+}
