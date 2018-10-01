@@ -62,3 +62,5 @@ function getPosts(){
     document.querySelector('#output').innerHTML = output;
   })
 }
+
+//addPost function
