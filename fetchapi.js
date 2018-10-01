@@ -65,5 +65,5 @@ function getPosts(){
 
 //addPost function
 function addPost(e){
-
+  e.preventDefault();
 }
