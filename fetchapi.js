@@ -53,8 +53,8 @@ function getPosts(){
     data.forEach(function(post){
       output += `
         <div>
-          <h3>Title: ${post.title}</h3>
-          <p>Body: ${post.body}</p>
+          <h3>${post.title}</h3>
+          <p>${post.body}</p>
         </div>
       `;
     });
