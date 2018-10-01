@@ -1,6 +1,7 @@
 //select element
 document.querySelector('#getText').addEventListener('click', getText);
 document.querySelector('#getUsers').addEventListener('click', getUsers);
+document.querySelector('#getPosts').addEventListener('click', getPosts);
 
 function getText(){
 
