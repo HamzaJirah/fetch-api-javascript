@@ -49,7 +49,7 @@ function getPosts(){
   fetch('https://jsonplaceholder.typicode.com/posts')
   .then((res) => res.json())
   .then((data) => {
-    let output = '<h2>Users</h2>';
+    let output = '<h2>Posts</h2>';
     data.forEach(function(user){
       output += `
         <ul>
