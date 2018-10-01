@@ -64,3 +64,6 @@ function getPosts(){
 }
 
 //addPost function
+function addPost(e){
+
+}
