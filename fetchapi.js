@@ -66,4 +66,6 @@ function getPosts(){
 //addPost function
 function addPost(e){
   e.preventDefault();
+
+  let title = document.querySelector('#title').value
 }
