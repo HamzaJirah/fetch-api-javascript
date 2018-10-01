@@ -44,9 +44,9 @@ function getUsers(){
 }
 
 //GETposts FROM External Api
-function getUsers(){
+function getPosts(){
   //fetch users
-  fetch('users.json')
+  fetch('https://jsonplaceholder.typicode.com/posts')
   .then((res) => res.json())
   .then((data) => {
     let output = '<h2>Users</h2>';
