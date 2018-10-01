@@ -45,7 +45,7 @@ function getUsers(){
 
 //GETposts FROM External Api
 function getPosts(){
-  //fetch users
+  //fetch posts from external api
   fetch('https://jsonplaceholder.typicode.com/posts')
   .then((res) => res.json())
   .then((data) => {
