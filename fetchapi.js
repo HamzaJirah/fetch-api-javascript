@@ -69,4 +69,6 @@ function addPost(e){
 
   let title = document.querySelector('#title').value
   let body = document.querySelector('#body').value
+
+  fetch('https://jsonplaceholder.typicode.com/posts')
 }
