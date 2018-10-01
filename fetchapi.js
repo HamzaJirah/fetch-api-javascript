@@ -50,13 +50,12 @@ function getPosts(){
   .then((res) => res.json())
   .then((data) => {
     let output = '<h2>Posts</h2>';
-    data.forEach(function(user){
+    data.forEach(function(post){
       output += `
-        <ul>
-          <li>ID: ${user.id}</li>
-          <li>Name: ${user.name}</li>
-          <li>Email: ${user.email}</li>
-        </ul>
+        <div>
+          <h3>Title: ${post.title}</h3>
+          <p>Body: ${post.body}</p>
+        </div>
       `;
     });
     document.querySelector('#output').innerHTML = output;
