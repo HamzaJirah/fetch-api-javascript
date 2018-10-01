@@ -68,4 +68,5 @@ function addPost(e){
   e.preventDefault();
 
   let title = document.querySelector('#title').value
+  let body = document.querySelector('#body').value
 }
