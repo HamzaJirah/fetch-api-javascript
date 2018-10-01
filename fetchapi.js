@@ -43,7 +43,7 @@ function getUsers(){
   })
 }
 
-//GETUSERS FROM USERS.JSON FILE
+//GETposts FROM External Api
 function getUsers(){
   //fetch users
   fetch('users.json')
