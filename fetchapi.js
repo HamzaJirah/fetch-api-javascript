@@ -2,6 +2,7 @@
 document.querySelector('#getText').addEventListener('click', getText);
 document.querySelector('#getUsers').addEventListener('click', getUsers);
 document.querySelector('#getPosts').addEventListener('click', getPosts);
+document.querySelector('#addPost').addEventListener('submit', addPost);
 
 function getText(){
 
