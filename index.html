@@ -8,20 +8,22 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-  <button id="getText">Get Text</button>
-  <button id="getUsers">Get JSON</button>
-  <button id="getPosts">Get POSTS (API DATA)</button>
-  <hr>
-  <form id="addPost">
-    <div>
-      <input type="text" id="title" placeholder="Title">
-    </div>
-    <div>
-     <textarea id="body" placeholder="Body"></textarea>
-    </div>
-    <input type="submit" value="Submit">
-  </form>
-  <div id="output"></div>
+  <div class="container">
+    <button id="getText">Get Text</button>
+    <button id="getUsers">Get JSON</button>
+    <button id="getPosts">Get POSTS (API DATA)</button>
+    <hr>
+    <form id="addPost">
+      <div>
+        <input type="text" id="title" placeholder="Title">
+      </div>
+      <div>
+      <textarea id="body" placeholder="Body"></textarea>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="output"></div>
+  </div>
   <script src="fetchapi.js"></script>
 </body>
 </html>
